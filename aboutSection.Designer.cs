@@ -132,11 +132,11 @@ namespace SodiumV1
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.label4.Location = new System.Drawing.Point(275, 250);
+            this.label4.Location = new System.Drawing.Point(282, 250);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(80, 14);
+            this.label4.Size = new System.Drawing.Size(62, 14);
             this.label4.TabIndex = 14;
-            this.label4.Text = "Version 1.0512";
+            this.label4.Text = "Version 1.1";
             // 
             // label5
             // 

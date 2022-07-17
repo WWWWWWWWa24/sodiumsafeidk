@@ -1,4 +1,10 @@
-﻿using System;
+﻿// Note to whoever reads this
+// if you have managed to crack this little thing, Congratulations! but you, my friend have just wasted your time.
+// With that skill you could've made a better software than this, or get hired by big tech companies, rather you've used your time to reverse engineer a 16 year old's little plaything
+// now let that sink in.
+// Ciao!
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -56,7 +62,6 @@ namespace SodiumV1
         }
         private void siticoneImageButton3_Click(object sender, EventArgs e)
         {
-            this.Hide();
             settingsTab settings1 = new settingsTab();
             settings1.Show();
             settings1.SetDesktopLocation(this.Location.X + -65, this.Location.Y);
@@ -120,7 +125,7 @@ namespace SodiumV1
             DiscordRpc.Initialize("998095108576641084", ref this.handlers, true, null);
             this.handlers = default(DiscordRpc.EventHandlers);
             DiscordRpc.Initialize("998095108576641084", ref this.handlers, true, null);
-            this.presence.details = "imy angel";
+            this.presence.details = "This user is a giant script kiddie";
             this.presence.state = ":(";
             this.presence.largeImageKey = "big";
             this.presence.smallImageKey = "small";

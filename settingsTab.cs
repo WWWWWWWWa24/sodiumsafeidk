@@ -45,5 +45,10 @@ namespace SodiumV1
             }
             Opacity -= .1;
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

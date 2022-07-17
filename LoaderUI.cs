@@ -31,7 +31,7 @@ namespace SodiumV1
             panel3.Width = 120;
             label1.Text = ("Checking for Updates..");
             await Task.Delay(2500);
-            if (!UpdateCheck.DownloadString("https://raw.githubusercontent.com/keru6k/keru6x/main/UpdateChecker").Contains("1.0512")) 
+            if (!UpdateCheck.DownloadString("https://raw.githubusercontent.com/keru6k/keru6x/main/UpdateChecker").Contains("1.1 alpha")) 
             {
                 label1.Text = ("Outdated Version Detected");
                 MessageBox.Show("You're Using an Outdated Version of Sodium. Please update to the latest version.", "updateError");
