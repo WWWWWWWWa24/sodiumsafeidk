@@ -356,7 +356,7 @@ namespace SodiumV1
             this.fastColoredTextBox2.ServiceLinesColor = System.Drawing.Color.Transparent;
             this.fastColoredTextBox2.Size = new System.Drawing.Size(525, 271);
             this.fastColoredTextBox2.TabIndex = 15;
-            this.fastColoredTextBox2.Text = "-- Sodium UI\r\n-- Developed by Keru";
+            this.fastColoredTextBox2.Text = "-- Sodium UI\r\n-- Developed by Keru, safety check by bulbasaur";
             this.fastColoredTextBox2.Zoom = 100;
             this.fastColoredTextBox2.Load += new System.EventHandler(this.fastColoredTextBox2_Load);
             // 
