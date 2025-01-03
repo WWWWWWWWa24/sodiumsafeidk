@@ -117,15 +117,7 @@ namespace SodiumV1
 
         private void ExecutorUI_Load(object sender, EventArgs e)
         {
-            this.handlers = default(DiscordRpc.EventHandlers);
-            DiscordRpc.Initialize("oprussiafuckers", ref this.handlers, true, null);
-            this.handlers = default(DiscordRpc.EventHandlers);
-            DiscordRpc.Initialize("oprussiafuckers", ref this.handlers, true, null);
-            this.presence.details = "This user is a giant script kiddie";
-            this.presence.state = ":(";
-            this.presence.largeImageKey = "big";
-            this.presence.smallImageKey = "small";
-            DiscordRpc.UpdatePresence(ref this.presence);
+
         }
     }
 }
